@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.bac32d8c.chunk.css",
-    "main.js": "/static/js/main.2e7a3339.chunk.js",
-    "main.js.map": "/static/js/main.2e7a3339.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4ff29786.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4ff29786.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.99c50e2f.chunk.js": "/static/js/2.99c50e2f.chunk.js",
-    "static/js/2.99c50e2f.chunk.js.map": "/static/js/2.99c50e2f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.60430fba0169d57fa7c44cee182cd71a.js": "/precache-manifest.60430fba0169d57fa7c44cee182cd71a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.bac32d8c.chunk.css.map": "/static/css/main.bac32d8c.chunk.css.map",
-    "static/js/2.99c50e2f.chunk.js.LICENSE": "/static/js/2.99c50e2f.chunk.js.LICENSE"
+    "main.css": "/YNFP/static/css/main.bac32d8c.chunk.css",
+    "main.js": "/YNFP/static/js/main.484d8113.chunk.js",
+    "main.js.map": "/YNFP/static/js/main.484d8113.chunk.js.map",
+    "runtime-main.js": "/YNFP/static/js/runtime-main.24a8929e.js",
+    "runtime-main.js.map": "/YNFP/static/js/runtime-main.24a8929e.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/YNFP/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.32a255c8.chunk.js": "/YNFP/static/js/2.32a255c8.chunk.js",
+    "static/js/2.32a255c8.chunk.js.map": "/YNFP/static/js/2.32a255c8.chunk.js.map",
+    "index.html": "/YNFP/index.html",
+    "precache-manifest.1140af91b618dd0bd5f6aae7f84db1a4.js": "/YNFP/precache-manifest.1140af91b618dd0bd5f6aae7f84db1a4.js",
+    "service-worker.js": "/YNFP/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/YNFP/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.bac32d8c.chunk.css.map": "/YNFP/static/css/main.bac32d8c.chunk.css.map",
+    "static/js/2.32a255c8.chunk.js.LICENSE": "/YNFP/static/js/2.32a255c8.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ff29786.js",
+    "static/js/runtime-main.24a8929e.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.99c50e2f.chunk.js",
+    "static/js/2.32a255c8.chunk.js",
     "static/css/main.bac32d8c.chunk.css",
-    "static/js/main.2e7a3339.chunk.js"
+    "static/js/main.484d8113.chunk.js"
   ]
 }

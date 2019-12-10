@@ -1,5 +1,6 @@
 {
-  "name": "yyn",
+  "homepage": "https://razaqfatiu.github.io/YNFP/",
+  "name": "ynfp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
