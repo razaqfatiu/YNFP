@@ -3,8 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Nav from './Component/nav';
 import home from './Component/home'
 import Footer from './Component/footer'
-import Goals from './Component/goals'
-import Mission from './Component/mission'
+import About from './Component/about'
 
 import './App.css';
 
@@ -16,8 +15,7 @@ function App() {
           <Nav />
           <Switch>
             <Route exact path="/" component={home} />
-            <Route path="/goals" component={Goals} />
-            <Route path="/mission" component={Mission} />
+            <Route path="/about" component={About} />
           </Switch>
           <Footer />
         </div>
