@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ynfp/static/css/main.c08d750b.chunk.css",
-    "main.js": "/ynfp/static/js/main.f1ace645.chunk.js",
-    "main.js.map": "/ynfp/static/js/main.f1ace645.chunk.js.map",
-    "runtime-main.js": "/ynfp/static/js/runtime-main.6a4f5c47.js",
-    "runtime-main.js.map": "/ynfp/static/js/runtime-main.6a4f5c47.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/ynfp/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.faaa720f.chunk.js": "/ynfp/static/js/2.faaa720f.chunk.js",
-    "static/js/2.faaa720f.chunk.js.map": "/ynfp/static/js/2.faaa720f.chunk.js.map",
-    "index.html": "/ynfp/index.html",
-    "precache-manifest.582d1e618d4f29518a82d1e59a5c4b81.js": "/ynfp/precache-manifest.582d1e618d4f29518a82d1e59a5c4b81.js",
-    "service-worker.js": "/ynfp/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/ynfp/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.c08d750b.chunk.css.map": "/ynfp/static/css/main.c08d750b.chunk.css.map",
-    "static/js/2.faaa720f.chunk.js.LICENSE": "/ynfp/static/js/2.faaa720f.chunk.js.LICENSE"
+    "main.css": "/razaqfatiu/ynfp/static/css/main.c08d750b.chunk.css",
+    "main.js": "/razaqfatiu/ynfp/static/js/main.b86be4a0.chunk.js",
+    "main.js.map": "/razaqfatiu/ynfp/static/js/main.b86be4a0.chunk.js.map",
+    "runtime-main.js": "/razaqfatiu/ynfp/static/js/runtime-main.00760bea.js",
+    "runtime-main.js.map": "/razaqfatiu/ynfp/static/js/runtime-main.00760bea.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/razaqfatiu/ynfp/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.faaa720f.chunk.js": "/razaqfatiu/ynfp/static/js/2.faaa720f.chunk.js",
+    "static/js/2.faaa720f.chunk.js.map": "/razaqfatiu/ynfp/static/js/2.faaa720f.chunk.js.map",
+    "index.html": "/razaqfatiu/ynfp/index.html",
+    "precache-manifest.ef213ee6bd2d0b93f0662c1718c243ff.js": "/razaqfatiu/ynfp/precache-manifest.ef213ee6bd2d0b93f0662c1718c243ff.js",
+    "service-worker.js": "/razaqfatiu/ynfp/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/razaqfatiu/ynfp/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.c08d750b.chunk.css.map": "/razaqfatiu/ynfp/static/css/main.c08d750b.chunk.css.map",
+    "static/js/2.faaa720f.chunk.js.LICENSE": "/razaqfatiu/ynfp/static/js/2.faaa720f.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a4f5c47.js",
+    "static/js/runtime-main.00760bea.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.faaa720f.chunk.js",
     "static/css/main.c08d750b.chunk.css",
-    "static/js/main.f1ace645.chunk.js"
+    "static/js/main.b86be4a0.chunk.js"
   ]
 }
