@@ -10,9 +10,9 @@ export default class nav extends Component {
           <NavLink className="navBarLeftItem" to="/">YNFP Initiative</NavLink>
           </div>
           <ul className="navBarRight">
-              <li><NavLink className="navItem" to='/'>Home</NavLink></li>
-              <li><NavLink className="navItem" to='/about'>About</NavLink></li>
-              <li><NavLink className="navItem" to='/'>Contact</NavLink></li>
+              <li className="navItem"><NavLink className="text-white tw" to='/'>Home</NavLink></li>
+              <li className="navItem"><NavLink className="text-white tw" to='/about'>About</NavLink></li>
+              <li className="navItem"><NavLink className="text-white tw" to='/'>Contact</NavLink></li>
         </ul>
         </nav>
     )
