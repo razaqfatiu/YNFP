@@ -15,34 +15,31 @@ export default class goals extends Component {
           </h2>
         </div>
 
-        <div class="row mAndV">
-          <div class="col-sm mission text-left ">
-
+        <div className="mAndV">
+          <div className="mission">
             <h2 className="text-center">
               Mission:
             </h2>
-            <p className="w-100">
+            <p className="text-left texts">
               To drive national development through government engagement on foreign policy issues,
                and provide constant advocacy for the welfare of Nigerians in the diaspora.
             </p>
 
           </div>
-          <div class="col-sm vission text-left">
+          <div className="vission texts">
             <h2 className="text-center">
               Vision:
               </h2>
-            <p>
+            <p className="text-left">
               To give Nigeria’s foreign policy a new framework that reinvigorates its international prestige and reflects its national
               interests in a suitable fashion for a dynamic modern world and global climes.
             </p>
           </div>
         </div>
 
-
-
-        <div className="content">
-          <div className="text-left">
-          <h2 className="ml-2">
+        <div className="contents">
+          <div className="goals">
+          <h2 className="">
           Short-term goals:
           </h2>
           <ul className="sL">
@@ -57,7 +54,7 @@ export default class goals extends Component {
           <li>Liaise with missions and embassies abroad to organise workshops for low-skilled workers overseas.</li>
           </ul>
 
-          <h2 className="ml-2">
+          <h2 className="">
           Long-term goals:
           </h2>
           <ul className="sL">
