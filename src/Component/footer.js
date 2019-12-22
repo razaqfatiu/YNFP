@@ -10,7 +10,7 @@ export default class footer extends Component {
           <div className="col-12 social padding">
             <a href="https://fb.com"> <i className="fa fa-facebook iconLink" ></i></a>
             <a href="https://twitter.com"> <i className="fa fa-twitter iconLink" ></i></a>
-            <a href="https://fb.com"> <i className="fa fa-instagram iconLink" ></i></a>
+            <a href="https://instagram.com"> <i className="fa fa-instagram iconLink" ></i></a>
           </div>
 
 

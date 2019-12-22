@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/YNPF/">
+      <BrowserRouter basename="/ynfp/">
         <div className="App">
           <Nav />
           <Switch>
