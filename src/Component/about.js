@@ -7,7 +7,7 @@ export default class goals extends Component {
       <div className="about">
 
         <div className="imgDiv">
-          <img className="image1" src="https://cdn06.allafrica.com/download/pic/main/main/csiid/00520061:fb516099bbc53c7b225c7467a9494026:arc614x376:w1200.jpg" alt="Image" />
+          {/* <img className="image1" src="https://cdn06.allafrica.com/download/pic/main/main/csiid/00520061:fb516099bbc53c7b225c7467a9494026:arc614x376:w1200.jpg" alt="Image" /> */}
 
           <h2 className="text">
             YNFP Initiative is a youth-led organization of foreign policy advocates championing government engagement on foreign policy issues,
@@ -17,8 +17,10 @@ export default class goals extends Component {
 
         <div className="mAndV">
           <div className="mission">
+          <i className="fa fa-bullseye fa-4x fa-spin vission-icon"></i>
+
             <h2 className="text-center">
-              Mission:
+              MISSION
             </h2>
             <p className="text-left texts">
               To drive national development through government engagement on foreign policy issues,
@@ -27,8 +29,10 @@ export default class goals extends Component {
 
           </div>
           <div className="vission texts">
+            <i className="fa fa-eye fa-2x fa-spin vission-icon"></i>
+
             <h2 className="text-center">
-              Vision:
+              VISSION
               </h2>
             <p className="text-left">
               To give Nigeria’s foreign policy a new framework that reinvigorates its international prestige and reflects its national
@@ -37,35 +41,35 @@ export default class goals extends Component {
           </div>
         </div>
 
-        <div className="contents">
+        {/* <div className="contents">
           <div className="goals">
-          <h2 className="">
-          Short-term goals:
+            <h2 className="">
+              Short-term goals:
           </h2>
-          <ul className="sL">
-          <li>Develop a brief history and background information on Nigeria’s foreign policy.</li>
-          <li>Advocate for a concise definition and repositioning of Nigeria’s “national interests” in the committee of nations.</li>
-          <li>Engage the Nigerian government and foreign missions on policy issues, decisions and all matters related thereto.</li>
-          <li>Organize regular fora to promote discussion and dialogue around Nigeria’s foreign policy and the country’s role in the international community.</li>
-          <li>Influence the government to take pragmatic steps on the accomplishment of global agendas such as sustainable development goals.</li>
-          <li>Serve as a helpline for Nigerians abroad on matters deserving of government’s intervention.</li>
-          <li>Curate stories from Nigerians locked up abroad or pairing Nigerians seeking emergency shelter within countries they are primarily domiciled in.</li>
-          <li>Crowdsource foreign affairs and international relations matters affecting Nigerians both at home and abroad for escalation to the relevant authorities.</li>
-          <li>Liaise with missions and embassies abroad to organise workshops for low-skilled workers overseas.</li>
-          </ul>
+            <ul className="sL">
+              <li>Develop a brief history and background information on Nigeria’s foreign policy.</li>
+              <li>Advocate for a concise definition and repositioning of Nigeria’s “national interests” in the committee of nations.</li>
+              <li>Engage the Nigerian government and foreign missions on policy issues, decisions and all matters related thereto.</li>
+              <li>Organize regular fora to promote discussion and dialogue around Nigeria’s foreign policy and the country’s role in the international community.</li>
+              <li>Influence the government to take pragmatic steps on the accomplishment of global agendas such as sustainable development goals.</li>
+              <li>Serve as a helpline for Nigerians abroad on matters deserving of government’s intervention.</li>
+              <li>Curate stories from Nigerians locked up abroad or pairing Nigerians seeking emergency shelter within countries they are primarily domiciled in.</li>
+              <li>Crowdsource foreign affairs and international relations matters affecting Nigerians both at home and abroad for escalation to the relevant authorities.</li>
+              <li>Liaise with missions and embassies abroad to organise workshops for low-skilled workers overseas.</li>
+            </ul>
 
-          <h2 className="">
-          Long-term goals:
+            <h2 className="">
+              Long-term goals:
           </h2>
-          <ul className="sL">
-          <li>Organize fellowships for young FP professionals to contribute to constructive dialogues regarding Nigeria’s diplomatic relation with other countries and, by and large, its role in the international community.</li>
-          <li>Offer support services (to the government) to engineer the reform of Nigeria’s current foreign policy.</li>
-          <li>Create a platform that gives both senses of belonging and unity to all Nigerians abroad.</li>
-          <li>Rebrand Nigeria’s global image through campaigns, compelling positive storytelling, international conferences, etc.</li>
-          <li>Promote Nigeria’s foreign policy interests through multidisciplinary dialogues, diplomatic relations, etc.</li>
-          </ul>
-        </div>
-        </div>
+            <ul className="sL">
+              <li>Organize fellowships for young FP professionals to contribute to constructive dialogues regarding Nigeria’s diplomatic relation with other countries and, by and large, its role in the international community.</li>
+              <li>Offer support services (to the government) to engineer the reform of Nigeria’s current foreign policy.</li>
+              <li>Create a platform that gives both senses of belonging and unity to all Nigerians abroad.</li>
+              <li>Rebrand Nigeria’s global image through campaigns, compelling positive storytelling, international conferences, etc.</li>
+              <li>Promote Nigeria’s foreign policy interests through multidisciplinary dialogues, diplomatic relations, etc.</li>
+            </ul>
+          </div>
+        </div> */}
       </div>
     )
   }
