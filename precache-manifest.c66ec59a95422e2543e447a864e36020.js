@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9127e13aed228f6c419fa07ad9c26e92",
+    "revision": "158be16fbff8d5ef55c7a11649e9faba",
     "url": "/razaqfatiu/ynfp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/razaqfatiu/ynfp/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "159ad1335e9a2f6a9988",
-    "url": "/razaqfatiu/ynfp/static/css/main.3f02a31a.chunk.css"
+    "revision": "3fefa56be6c683141947",
+    "url": "/razaqfatiu/ynfp/static/css/main.fb56c50e.chunk.css"
   },
   {
     "revision": "90c27e1645db5be75fad",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/razaqfatiu/ynfp/static/js/2.c979e167.chunk.js.LICENSE"
   },
   {
-    "revision": "159ad1335e9a2f6a9988",
-    "url": "/razaqfatiu/ynfp/static/js/main.9b7f1f9b.chunk.js"
+    "revision": "3fefa56be6c683141947",
+    "url": "/razaqfatiu/ynfp/static/js/main.d0ad820d.chunk.js"
   },
   {
     "revision": "c1f3dc0f6e5034639a72",
