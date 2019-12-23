@@ -30,7 +30,7 @@ export default class nav extends Component {
                   Contact
                 </NavLink>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink class="dropdown-item" to="#">Contact us</NavLink>
+                  <NavLink class="dropdown-item" to="/contact">Contact us</NavLink>
                   <div className="dropdown-divider"></div>
                   <NavLink class="dropdown-item" to="#">Get Involved</NavLink>
                 </div>
