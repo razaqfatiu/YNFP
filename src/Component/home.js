@@ -1,60 +1,63 @@
-import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react'
+// import { NavLink } from 'react-router-dom'
+import './home.css'
+import pic1 from '../images/4.jpg'
+import pic2 from '../images/1.jpg'
+import pic3 from '../images/3.jpg'
 
-export default class home extends Component {
-  render() {
-    return (
-      <div>
+function home() {
+  return (
+    <div className="homePage">
+      <div className="carousel slide" data-ride="carousel" id="slides">
+        <ul className="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" className="active"> </li>
+          <li data-target="#slides" data-slide-to="1"></li>
+          <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
 
-        <div className="jumbotron">
-          <h1 className="display-4">YNFP INITIATIVE</h1>
-          <p className="lead">
-            A youth-led organization of foreign policy professionals and advocates championing government engagement on foreign policy issues,
-            nation branding and welfare of the Nigerian diaspora at multi-stakeholder levels.
-          </p>
-          <hr className="my-4" />
-          <p className="lead">
-            <NavLink className="btn btn-primary btn-lg" to="/mission" role="button">Mission & Vission</NavLink>
-          </p>
-        </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="imgB" src={pic1} alt="image0" />
+            {/* <div className="carousel-caption">
+              <h1 className="display-2">YPNF</h1>
 
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div className="container carousel-inner">
-            <div className="carousel-item active">
-              <img className="d-block w-100" src="https://www.magnafaith.com/wp-content/uploads/2019/01/iStock_000034040610_Large.jpg" alt="First slide" />
-            </div>
-            <div className="carousel-item">
-              <img className="d-block w-100" src="http://www.mscareergirl.com/wp-content/uploads/2017/01/diversity-fixy-0117-640x400@2x.png" alt="Second slide" />
-            </div>
-            <div className="carousel-item">
-              <img className="d-block w-100" src="https://i.pinimg.com/originals/4b/cd/b5/4bcdb5b3f821bca649ac944a25d04a21.jpg" alt="Third slide" />
-            </div>
+            </div> */}
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
-          </a>
+          <div className="carousel-item"> <img className="imgB"src={pic2} alt="image1" /> </div>
+          <div className="carousel-item"> <img className="imgB" src={pic3} alt="image2"/> </div>
         </div>
-
-
-        <svg xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320">
-          <path fill="#273036"
-            fill-opacity="0.5"
-            d="M0,224L40,218.7C80,213,160,203,240,213.3C320,224,400,256,480,245.3C560,235,640,181,720,170.7C800,160,880,192,960,208C1040,224,1120,224,1200,192C1280,160,1360,96,1400,64L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
-          </path></svg>
-          <br />
 
       </div>
-    )
-  }
+
+      <div className="container-fluid padding bodyDiv">
+        <div className="row text-center padding">
+          <div className="col-xs-12 col-sm-6 col-md-4">
+            <i className="fa fa-code fa-3x"></i>
+            <h3>MISSION</h3>
+            <p className="textBody text-xl-left">To drive national development through government engagement on foreign 
+            policy issues, and provide constant advocacy for the welfare of Nigerians in the diaspora.</p>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 ">
+            <i className="fa fa-eye fa-3x"></i>
+            <h3>VISSION</h3>
+            <p  className="textBody text-xl-left">To give Nigeria’s foreign policy a new framework that reinvigorates its international prestige and reflects its national 
+              interests in a suitable fashion for a dynamic modern world and global climes..</p>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 bg-dark rounded">
+            <i className="fa fa-info-circle fa-3x text-light"></i>
+            <h3 className="text-light">Our Values</h3>
+            <p  className="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+              officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  )
 }
+
+export default home

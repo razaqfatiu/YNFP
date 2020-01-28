@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro|Crimson+Text|Playfair+Display&display=swap');
+.about {
+  width: 100%;
+}
+
+/* .imgDiv {
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  text-align: center;
+  color: white;
+  background: khaki;
+}
+.image1{
+  width: 100vw;
+  height: 60vh;
+} */
+
+@media only screen and (max-width: 500px) {
+  .imgDiv {
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    background: rgb(98, 144, 27);  }
+  .image1 {
+    width: 100vw;
+    height: 50vh;
+  }
+  .text {
+    font-size: 25px;
+    width: 90vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Crimson Text', serif;
+    margin-top: 20%;
+  }
+  .mAndV {
+    width: 100%;
+    display: block;
+  }
+  .mission {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 5%;
+  }
+  .vission{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: black;
+    border-radius: 1%;
+    font-family: 'Playfair Display', serif;
+    padding: 5%;
+  }
+  .texts {
+    font-family: 'Crimson Pro', serif;
+  }
+  div .mission > h2 {
+    font-size: 50px;
+  }
+  div .vission > h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 639px) {
+
+  .imgDiv {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    background: rgb(98, 144, 27);  }
+  .image1{
+    width: 100vw;
+    height: 50vh;
+  }
+  .text {
+    font-size: 30px;
+    width: 70vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Crimson Text', serif;
+    margin-top: 10%;
+  }
+  .mAndV {
+    width: 100%;
+    display: block;
+
+  }
+  .mission {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 10%;
+  }
+  .vission{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 10%;
+  }
+  .texts {
+    font-family: 'Crimson Pro', serif;
+  }
+  div .mission > h2 {
+    font-size: 50px;
+  }
+  div .vission > h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 800px) {
+  .imgDiv {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    background: rgb(98, 144, 27);  }
+  .image1 {
+    width: 100vw;
+    height: 70vh;
+
+  }
+  .text {
+    font-size: 40px;
+    width: 80vw;
+    height: 50vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Crimson Text', serif;
+    margin-top: 10%;
+  }
+  
+  .mAndV {
+    display: inline-block;
+  }
+  .mission {
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 4%;
+  }
+  .vission{
+    float: right;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 4%;
+  }
+  .texts {
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+  }
+  div .mission > h2 {
+    font-size: 50px;
+  }
+  div .vission > h2 {
+    font-size: 50px;
+  }
+
+}
+
+@media only screen and (min-width: 801px) {
+  .imgDiv {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    background: rgb(98, 144, 27);
+  }
+  .image1 {
+    width: 100vw;
+    height: 70vh;
+  }
+  .text {
+    font-size: 40px;
+    width: 80vw;
+    height: 50vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Crimson Text', serif;
+    margin-top: 10%;
+  }
+
+  .mAndV {
+    display: inline-block;
+
+  }
+  .mission {
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 4%;
+  }
+  .vission{
+    float: right;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    padding: 4%;
+  }
+  .texts {
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+  }
+div .mission > h2 {
+  font-size: 50px;
+}
+div .vission > h2 {
+  font-size: 50px;
+}
+
+}
+
+.vission-icon {
+  display: block;
+  text-align: center;
+}
+/* .text {
+  width: 80vw;
+  height: 50vh;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Crimson Text', serif;
+} */
+
+/* .mAndV {
+  width: 100%;
+}
+
+.mission {
+  margin: 2%;
+  width: 45%;
+  height: 190px;
+  text-align: left;
+  background: rgb(141, 202, 48); 
+  color: white;
+  border-radius: 1%;
+  font-family: 'Playfair Display', serif;
+  float: left;
+} */
+
+
+h2{
+  font-family: 'Crimson Text', serif;
+}
+/* .vission{
+  float: right;
+  margin: 2%;
+  width: 45%;
+  height: 190px;
+  text-align: left;
+  background: rgb(141, 202, 48);
+  color: white;
+  border-radius: 1%;
+  font-family: 'Playfair Display', serif;
+
+} */
+.contents {
+  width: auto;
+}
+.goals {
+  text-align: left;
+  padding: 10% 10% 15% 10%;
+}
+
+.sL{
+  font-family: 'Playfair Display', serif;
+  margin: 2%;
+}
